@@ -1,20 +1,35 @@
 {
-  "name": "zigbee-shepherd",
-  "version": "0.3.0",
-  "description": "An open source ZigBee gateway solution with node.js.",
-  "main": "index.js",
-  "scripts": {
-    "test": "make test-all"
+  "_from": "zigbee-shepherd@^0.3.0",
+  "_id": "zigbee-shepherd@0.3.0",
+  "_inBundle": false,
+  "_integrity": "sha1-RuuAnjOUEYZN9421OwHUkc9XOZ0=",
+  "_location": "/zigbee-shepherd",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "zigbee-shepherd@^0.3.0",
+    "name": "zigbee-shepherd",
+    "escapedName": "zigbee-shepherd",
+    "rawSpec": "^0.3.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.3.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zigbeer/zigbee-shepherd.git"
-  },
-  "keywords": [
-    "zigbee",
-    "cc253x"
+  "_requiredBy": [
+    "/"
   ],
-  "author": "Jack Wu <jackchased@gmail.com>",
+  "_resolved": "https://registry.npmjs.org/zigbee-shepherd/-/zigbee-shepherd-0.3.0.tgz",
+  "_shasum": "46eb809e339411864df78db53b01d491cf57399d",
+  "_spec": "zigbee-shepherd@^0.3.0",
+  "_where": "/home/henrique/Projetos/zs-server-totem",
+  "author": {
+    "name": "Jack Wu",
+    "email": "jackchased@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/zigbeer/zigbee-shepherd/issues"
+  },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Hedy Wang",
@@ -25,11 +40,6 @@
       "email": "simenkid@gmail.com"
     }
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zigbeer/zigbee-shepherd/issues"
-  },
-  "homepage": "https://github.com/zigbeer/zigbee-shepherd#readme",
   "dependencies": {
     "areq": "^0.2.0",
     "busyman": "^0.3.0",
@@ -44,10 +54,28 @@
     "zive": "^0.2.2",
     "zstack-constants": "^0.2.0"
   },
+  "deprecated": false,
+  "description": "An open source ZigBee gateway solution with node.js.",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
     "sinon": "^1.17.4",
     "sinon-chai": "^2.8.0"
-  }
+  },
+  "homepage": "https://github.com/zigbeer/zigbee-shepherd#readme",
+  "keywords": [
+    "zigbee",
+    "cc253x"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "zigbee-shepherd",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zigbeer/zigbee-shepherd.git"
+  },
+  "scripts": {
+    "test": "make test-all"
+  },
+  "version": "0.3.0"
 }
