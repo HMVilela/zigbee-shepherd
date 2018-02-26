@@ -1,45 +1,34 @@
 {
-  "_from": "zigbee-shepherd@^0.3.0",
-  "_id": "zigbee-shepherd@0.3.0",
+  "_from": "zs-gateway@^0.1.0",
+  "_id": "zs-gateway@0.1.0",
   "_inBundle": false,
   "_integrity": "sha1-RuuAnjOUEYZN9421OwHUkc9XOZ0=",
-  "_location": "/zigbee-shepherd",
+  "_location": "/zs-gateway",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "zigbee-shepherd@^0.3.0",
-    "name": "zigbee-shepherd",
-    "escapedName": "zigbee-shepherd",
-    "rawSpec": "^0.3.0",
+    "raw": "zs-gateway@^0.1.0",
+    "name": "zs-gateway",
+    "escapedName": "zs-gateway",
+    "rawSpec": "^0.1.0",
     "saveSpec": null,
-    "fetchSpec": "^0.3.0"
+    "fetchSpec": "^0.1.0"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/zigbee-shepherd/-/zigbee-shepherd-0.3.0.tgz",
+  "_resolved": "https://registry.npmjs.org/zs-gateway/-/zs-gateway.tgz",
   "_shasum": "46eb809e339411864df78db53b01d491cf57399d",
-  "_spec": "zigbee-shepherd@^0.3.0",
+  "_spec": "zs-gateway@^0.1.0",
   "_where": "/home/henrique/Projetos/zs-server-totem",
   "author": {
-    "name": "Jack Wu",
-    "email": "jackchased@gmail.com"
+    "name": "Henrique Vilela",
+    "email": "henrique.dev01@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/zigbeer/zigbee-shepherd/issues"
+    "url": "https://github.com/HMVilela/zigbee-shepherd/issues"
   },
-  "bundleDependencies": false,
-  "contributors": [
-    {
-      "name": "Hedy Wang",
-      "email": "hedywings@gmail.com"
-    },
-    {
-      "name": "Simen Li",
-      "email": "simenkid@gmail.com"
-    }
-  ],
   "dependencies": {
     "areq": "^0.2.0",
     "busyman": "^0.3.0",
@@ -55,27 +44,27 @@
     "zstack-constants": "^0.2.0"
   },
   "deprecated": false,
-  "description": "An open source ZigBee gateway solution with node.js.",
+  "description": "This project is a fork of zigbee-shepherd (github.com/zigbeer/zigbee-shepherd) with few modifications.",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
     "sinon": "^1.17.4",
     "sinon-chai": "^2.8.0"
   },
-  "homepage": "https://github.com/zigbeer/zigbee-shepherd#readme",
+  "homepage": "https://github.com/HMVilela/zigbee-shepherd#readme",
   "keywords": [
     "zigbee",
     "cc253x"
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "zigbee-shepherd",
+  "name": "zs-gateway",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zigbeer/zigbee-shepherd.git"
+    "url": "git+https://github.com/HMVilela/zigbee-shepherd.git"
   },
   "scripts": {
     "test": "make test-all"
   },
-  "version": "0.3.0"
+  "version": "0.1.0"
 }
